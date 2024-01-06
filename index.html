@@ -10,24 +10,15 @@
 
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 
   <link rel="stylesheet" href="./assets/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  
+
+  <link rel="stylesheet" href="./data.json">
+
 </head>
 
 <body>
@@ -56,31 +47,31 @@
 
         <div class="skills">
 
-          <div class="skill">
+          <div class="skill skill__reaction">
             <img src="./assets/images/icon-reaction.svg" alt="">
             <p class="reaction">Reaction</p>
             <p class="score">80 / 100</p>
           </div>
 
-          <div class="skill">
+          <div class="skill skill__memory">
             <img src="./assets/images/icon-memory.svg" alt="">
-            <p class="reaction">Memory</p>
+            <p class="memory">Memory</p>
             <p class="score">92 / 100</p>
           </div>
 
-          <div class="skill">
+          <div class="skill skill__verbal">
             <img src="./assets/images/icon-verbal.svg" alt="">
-            <p class="reaction">Verbal</p>
+            <p class="verbal">Verbal</p>
             <p class="score">61 / 100</p>
           </div>
 
-          <div class="skill">
+          <div class="skill skill__visual">
             <img src="./assets/images/icon-visual.svg" alt="">
-            <p class="reaction">Visual</p>
+            <p class="visual">Visual</p>
             <p class="score">72 / 100</p>
           </div>
 
-          <div class="button">
+          <div class="btn">
             <button>Continue</button>
           </div>
 
@@ -88,22 +79,6 @@
       </div>
     </section>
   </main>
-
-
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

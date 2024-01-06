@@ -26,7 +26,6 @@ main {
     justify-content: center;
     align-items: center;
     height: 40rem;
-    width: 37rem;
 }
 .your__result {
     border-radius: 2rem;
@@ -34,6 +33,7 @@ main {
     color: hsl(221, 100%, 96%);
     height: 100%;
     padding: 2rem;
+    width: 25rem;
 
     display: flex;
     flex-direction: column;
@@ -91,22 +91,87 @@ main {
     background-color: hsl(0, 0%, 100%);
     height: 100%;
     padding: 2rem;
+    width: 25rem;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 2rem;
 }
 .title__summary {
     color: black;
+    font-size: 1.2rem;
+    text-align: left;
 }
 .skills {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%; 
 }
 .skill {
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding: .7rem;
+}
+.skill__reaction{
+    background-color: #FFB1B1;
+    border-radius: 4px;
+}
+.skill__memory{
+    background-color: rgba(255, 205, 103, .5);
+    border-radius: 4px;
+}
+.skill__verbal{
+    background-color: rgba(0, 189, 170, .4);
+    border-radius: 4px;
+}
+.skill__visual{
+    background-color: #969FED;
+    border-radius: 4px;
 }
 .reaction {
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    color:  hsl(39, 100%, 56%);
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
 }
 .score {
+    display: flex;
+    margin-left: 2rem;
 }
-.button {
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+    height: 9rem;
 }
+button {
+    background: none;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px 70px;
+    border-radius: 32px;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
